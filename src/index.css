@@ -1,0 +1,35 @@
+/* Body/Global styles */
+body {
+    text-align: center;
+}
+
+h1 {
+    color: black;
+}
+
+h2 {
+    color: goldenrod;
+}
+
+/* Progress Tracker Container */
+.progress-tracker {
+    margin: 20px 0;
+    text-align: center;
+}
+
+/* Progress Bar Track */
+.progress-bar {
+    width: 50%;
+    height: 10px;
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+/* Active Progress Fill */
+.progress {
+    height: 100%;
+    background-color: #4caf50; /* Green color for the progress */
+    transition: width 0.3s ease;
+}
